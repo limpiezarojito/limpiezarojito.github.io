@@ -26,14 +26,6 @@ h2 {
 	margin-bottom: 30px;
 }
 
-h3 {
-	font-size: 22px;
-	text-transform: uppercase;
-	color: #303030;
-	font-weight: 600;
-	margin-bottom: 30px;
-}
-
 h4 {
 	font-size: 19px;
 	line-height: 1.375em;
@@ -45,9 +37,9 @@ h4 {
 h5 {
 	font-size: 19px;
 	line-height: 1.375em;
-	color: #303030;
+	color: #ff3333;
 	font-weight: 400;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -363,24 +355,25 @@ translateY
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="static/img/gel-antibacterial.jpg" alt="Gel Antibacterial" style="width:100%;">
+				    <picture>
+  						<source srcset="static/img/small-atomizador.jpg" media="(max-width: 400px)">
+  						<source srcset="static/img/atomizador.jpg">
+  						<img src="static/img/atomizador.jpg" alt="Sanitizador" style="width:auto;">
+					</picture>
 					<div class="carousel-caption">
-						<h3>Gel Antibacterial</h3>
-						<h5>El aliado perfecto en la lucha contra los g&eacute;rmenes y bacterias!</h4>
+						<h5>Sanitizador</h5>
+						<!-- <h5>El aliado perfecto en la lucha contra los g&eacute;rmenes y bacterias!</h5> -->
 					</div>
 				</div>
 				<div class="item">
-					<img src="static/img/jabones-suavizantes.jpg" alt="Jabones y Suavizantes" style="width:100%;">
+					<picture>
+  						<source srcset="static/img/small-mata-insectos.jpg" media="(max-width: 400px)">
+  						<source srcset="static/img/mata-insectos.jpg">
+  						<img src="static/img/mata-insectos.jpg" alt="Eliminador de Insectos" style="width:auto;">
+					</picture>
 					<div class="carousel-caption">
-						<h3>Jabones y Suavizantes</h3>
-						<h5>Los mejores productos para el cuidado de su ropa y telas!</h4>
-					</div>
-				</div>
-				<div class="item">
-					<img src="static/img/jarcieria.jpg" alt="Jarcieria" style="width:100%;">
-					<div class="carousel-caption">
-						<h3>Productos de jarcieria</h3>
-						<h5>Los mejores productos de limpieza!</h4>
+						<h5>Eliminador de Insectos</h5>
+						<!-- <h5>Los mejores productos para el cuidado de su ropa y telas!</h5> -->
 					</div>
 				</div>
 				
